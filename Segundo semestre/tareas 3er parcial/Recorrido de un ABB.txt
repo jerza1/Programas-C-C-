@@ -1,0 +1,64 @@
+RECORRIDO DE UN ABB EN:
+PREORDEN
+
+Paso 1: IMPRIME LA CLAVE DEL NODO.
+
+Paso 2: RECORRER SUBARBOL IZQUIERDO EN PREORDEN.
+
+Paso 3: RECORRER SUBARBOL DERECHO EN PREORDEN.
+
+          7
+     2         10
+        4    9    15
+      3          12
+
+PREORDEN: 7,2,4,3,10,9,15,12
+
+_______________________________________________________________
+RECORRIDO DE UN ABB EN:
+ENORDEN (INORDEN)
+
+Paso 1: RECORRER SUBARBOL IZQUIERDO EN ENORDEN.
+
+Paso 2: IMPRIME LA CLAVE DEL NODO.
+
+Paso 3: RECORRER SUBARBOL DERECHO EN ENORDEN.
+
+          7
+     2         10
+        4    9    15
+      3          12
+
+PREORDEN: 2,3,4,7,9,10,12,15
+
+
+_______________________________________________________________
+RECORRIDO DE UN ABB EN:
+POSORDEN
+
+
+Paso 1: RECORRER SUBARBOL IZQUIERDO EN POSORDEN.
+
+Paso 2: RECORRER SUBARBOL DERECHO EN POSORDEN.
+
+Paso 3: IMPRIME LA CLAVE DEL NODO.
+
+
+          7
+     2         10
+        4    9    15
+      3          12
+
+PREORDEN: 3,4,2,9,12,15,10,7
+
+
+_______________________________________________________________
+
+
+          15
+     10         20
+   9        17    22
+          16     21
+
+
+

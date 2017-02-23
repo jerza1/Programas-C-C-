@@ -1,0 +1,17 @@
+ELIMINACION EN UN AVL
+
+Para eliminar un nodo en un AVL, se utiliza el procedimiento
+eliminacion de un ABB. A continuacion se debe actualizar el FE 
+de los ancestros del nodo eliminado, a partir de su padre hasta
+la raiz. Si uno de los ancestros tiene FE = 2 ó FE = -2
+se debe aplicar una rotacion de acuerdo a la sig tabla:
+
+---------------------------------------------------------------------
+| FE del nodo N |  FE del hizq de N  |  FE del hder de N |  ROTACION |
+|      2        |    NO IMPORTA      |       1           |    RSI    | 
+|      2        |    NO IMPORTA      |      -1           |    RDI    |
+|      2        |    NO IMPORTA      |       0           |    RSI    |
+|     -2        |        -1          |    NO IMPORTA     |    RSD    |
+|     -2        |         1          |    NO IMPORTA     |    RDD    |
+|     -2        |         0          |    NO IMPORTA     |    RSD    |
+----------------------------------------------------------------------

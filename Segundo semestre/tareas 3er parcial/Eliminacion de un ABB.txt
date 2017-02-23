@@ -1,0 +1,29 @@
+ELIMINACION DE UN ARBOL BINARIO DE BUSQUEDA
+
+Se presentan 3 casos, al eliminar un nodo en ABB
+
+CASO 1: Si el nodo es una hoja, se elimina directamente.
+
+Por ejemplo       30           eliminado 50 ==>      30
+              20      40                         20      40
+                          50
+
+________________________________________________________________
+CASO 2: Si el nodo tiene un hijo izquierdo o derecho, se elimina el nodo y su hijo toma la posicion del padre.
+
+Por ejemplo:         30           eliminando 40       30
+                 20      40         ==>           20      50
+                             50                         45
+                         45
+________________________________________________________________
+
+CASO 3: Si el nodo tiene 2 hijos, se obtiene el nodo sucesor ( ó predecesor), se intercambian las claves de estos nodos, y se elimina el nodo sucesor ( ó predecesor) aplicando el caso I ó el caso II.
+
+Por ejemplo     30         eliminando 30    35
+            20      40      ==>         20      40
+        sucesor-> 35                          38
+                    38
+
+________________________________________________________________
+
+05:28 p.m. 10/06/2013

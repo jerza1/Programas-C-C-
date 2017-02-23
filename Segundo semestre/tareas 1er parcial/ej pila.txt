@@ -1,0 +1,14 @@
+/*#include <stdlib.h>
+#define STACKSIZE 100
+
+typedef int datatype;
+typedef struct {
+        datatype data[STACKSIZE];
+        int tope;
+        }PILA;
+void push(PILA *, datatype);//inserta el dato de la PILa apuntada por p
+int empty(PILA *);//retorna 1 si la pila esta vacia, en otro caso retorna 0
+datatype pop(PILA *);//Extrae el elemento que se encuentra em el tope de la PILA
+datatype stacktop(PILA *);//retorma el elemento que se encuentra em el tope de la pila
+                         //apuntada por p, pero no lo extrae
+void init(PILA *);//asigna el valor -1 al campo tope de la Pila po p*/

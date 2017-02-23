@@ -1,0 +1,11 @@
+Arbol binario de busqueda
+
+Cualquier nodo es mayor a las claves de todos los nodos del subarbol izq y menor a los nodos del subarbol derecho.
+
+
+INSERCION DE CLAVES EN UN ABB(Arbol Binario de Busqueda)
+
+Paso 1: Si el ABB esta vacio, se inserta la clave en el nodo raiz.
+
+Paso 2: Si el ABB no esta vacio entonces se compara la clave a insertar, con las claves de los nodos del ABB empezando con la raiz. Si la clave a insertar es menor se avanza por el subarbol izquierdo, si no, se avanza por el subarbol derecho, hasta que el subarbol se encuentre vacio. Finalmente la clave se inserta en un nodo hoja nuevo, en la posicion que le corresponda.
+

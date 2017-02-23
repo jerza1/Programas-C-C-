@@ -1,0 +1,18 @@
+Sucesor de un nodo X:
+
+Es el nodo que tiene la clave mas pequeña del subarbol derecho del nodo x
+                20
+           10          30
+         5    15    25
+          7           27
+SUCESOR DEL NODO (20): NODO (25)
+
+
+PREDECESOR DE UN NODO X:
+
+Es el nodo que tiene la clave mas grande del subarbol izquierdo del nodo X
+
+Predecesor del nodo (20): NODO (15)
+
+5,7,10,15,20,25,27,30
+

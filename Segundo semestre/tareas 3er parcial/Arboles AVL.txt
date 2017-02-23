@@ -1,0 +1,83 @@
++ARBOLES AVL
+
+Un arbol AVL es un arbol binario de busqueda balanceado.
+El proposito de balancear el arbol consiste en obtener un buen 
+desempeño de las consultas.
+
+
+arbol ABB					arbol AVL
+						   O
+raiz -->  20					  / \
+           \					 O   O	
+	    30					/   / \	
+             \				       O   O   O
+	      40				
+               \
+		50
+
+
+ALTURA DE UN NODO
+
+               | 0  nodo == NULL
+	       | 
+altura(nodo) = |
+               |
+               | 1+maximo (altura(nodo->hizq, altura(nodo->hder))
+
+
+los nodos hojas tienen altura 1
+
+ejemplo		O       altura = 4       
+	       / \        
+altura = 2->  O	  O     altura = 3
+             /   / \ 
+            O   O   O   altura = 2
+             \ /     \
+         1 = altura    O altura = 1
+
+
+En un arbol AVL, todos los nodos tienen 
+un factor de equilibrio 0, 1, -1.
+
+factor de equilibrio (FE) de un nodo
+
+FE(nodo) = altura(nodo->hder) - altura(nodo->hizq)
+
+
+______________________________________________________________________________________
+
+
+TABLA PARA DETERMINAR EL TIPO DE ROTACION A APLICAR EN UN AVL, AL INSERTAR UNA CLAVE
+QUE GENERA UN DESEQUILIBRIO
+
+_______________________________________________________________
+|FE del nodo| FE del hizq | FE del hder  |  tipo de rotacion  | 
+|           | del nodo N  |  del nodo N  |   a aplicar        |
+---------------------------------------------------------------
+|   2       | No importa  |      1       |      RSI           |
+|   2       | No importa  |     -1       |      RDI           |
+|  -2       |     -1      | No importa   |      RSD           |
+|  -2       |      1      | No importa   |      RDD           |
+---------------------------------------------------------------
+
+
+EJEMPLO: Insertar las claves 20,17,2,25,30,11,15,13 en un AVL vacio
+P1 Insertando 20
+
+     FE = 0  20   <- raiz
+
+P2 Insertando 17
+
+     FE = -1 20   <- raiz
+            /
+  FE = 0   17
+
+P3 Insertando 2   
+       
+   FE = -2    20 <-raiz
+             /
+   FE = -1  17
+            /
+   FE = 0  2
+
+ 

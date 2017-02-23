@@ -1,0 +1,17 @@
+int nivel(NODO *n){
+/*calcular el nivel del nodo 
+       0
+    1     1
+ 2           2
+3              3 */   
+}
+
+
+
+
+void anchura(NODO *n){//recorrido de anchura
+/*           10           0      recorrido de anchura: 10,5,15,2,9,12,17,16
+        5         15       1
+      2   9    12    17    2 
+                    16     3
+}

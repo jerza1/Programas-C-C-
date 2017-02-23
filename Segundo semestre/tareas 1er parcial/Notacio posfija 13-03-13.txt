@@ -1,0 +1,21 @@
+Notacion Prefija
++ab
+Notacion Infija
+a+b
+Notacion Posfija
+ab+
+
+Ejemplo de notacion posfija
+numeros de un solo digito
+7 8 + 5 9 * -
+
+para evaluar vamos a utilizar una pila, considerando el siguiente procedimiento:
+1. Se recorre la expresion, caracter a caracter.
+2. si se encuetra un numero se inserta como entero en lapila.
+3. si se encuentra un operador, entonces 
+  3.1 extraer dos elementos de la pila (aplicar 2 pop).
+  3.2 Aplicar la operacion y el resultado insertarlo en la pila.
+pila	extraer		pila	extraer		pila 	extraer 		pila
+			9    						
+8    	7 + 8 = 15		5	5 * 9 = 45		45	15 - 45 = -30	
+7			15			15			-30

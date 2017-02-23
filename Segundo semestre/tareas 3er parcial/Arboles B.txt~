@@ -1,0 +1,53 @@
+Un árbol B se puede considerar una generalizacion de un ABB.
+Constituyen un arbol n-ario, de orden p, esto significa que cada
+nodo del arbol tiene:
+
+1. p = Numero maximo de hijos.         (INSERTAR)
+2. [p/2] = Numero minimo de hijos (excepto la raiz o los nodos hoja)   (ELIMINAR)
+3. p-1 = Numero maximo de claves.      (INSERTAR)
+4. [p/2] - 1 = Numero minimo de claves (excepto la raiz)               (ELIMINAR)
+
+
+REPRESENTACION GRAFICA DE UN ARBOL B
+           _______________________
+           | X1  X2  X3  X4... Xn |
+           ------------------------
+             /   /  |     \      \
+            /   /   |      \      \
+          <X1   >X1  >X2   >X3    >Xn
+                 &    &      &
+                <X2   <X3    <X4
+
+EJEMPLO DE UN ARBOL B DE ORDEN P = 3
+                 60
+              /     \ 
+             /       \
+          17 39     70 99
+         /   | \    / \  \
+      12 15  19
+__________________________________________________________________________________________
+
+
+ELIMINACION EN UN ARBOL B
+
+En el procedimiento de eliminacion de una clave en un arbol B, se requiere determinar el numero minimo de claves (q = [p/2]-1)
+Se presentan 2 casos principales:
+
+1) Cuando se elimina una clde de un nodo interno (no hoja).
+   La clave se reemplaza por el sucesor(clave), entonces se considera que la clave se elimina de un nodo hoja.
+
+2) Cuando se elimina una clave de un nodo hoja, en este caso se suprime directamente del nodo
+
+
+Si el nodo hoja, del cual se elimina la clave, presenta una cantidad de claves menor a q, entonces debemos aplicar las sig acciones:
+
+1.- Si el nodo hoja tiene un hermano izq, y este ultimo nodo tiene una cantida de calves mayor a q, entonces se toma la clave 
+mayor de este nodo y reemplaza a la clave de l nodo padre, y la clave del nodo padre
+se inserta en el nodo hoja con deficit de claves y con esto se termina la eliminacion.
+
+2.- Si el caso anterior no aplica, verificamos si el nodo hoja tiene un hermano der con una cantidad de claves mayor a q.
+
+3.- si no aplica el caso anterior entonces se debe unir nodos.
+
+
+ 
