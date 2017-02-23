@@ -1,0 +1,108 @@
+
+  DNA Sorting 
+
+One measure of ``unsortedness'' in a sequence is the number of pairs of entries that are out of order with respect to each other. For instance, in the letter sequence ``DAABEC'', this measure is 5, since D is greater than four letters to its right and E is greater than one letter to its right. This measure is called the number of inversions in the sequence. The sequence ``AACEDGG'' has only one inversion (E and D)--it is nearly sorted--while the sequence ``ZWQM'' has 6 inversions (it is as unsorted as can be--exactly the reverse of sorted).
+
+
+You are responsible for cataloguing a sequence of DNA strings (sequences containing only the four letters A, C, G, and T). However, you want to catalog them, not in alphabetical order, but rather in order of ``sortedness'', from ``most sorted'' to ``least sorted''. All the strings are of the same length.
+
+Input 
+The first line of the input is an integer M, then a blank line followed by M datasets. There is a blank line between datasets.
+
+The first line of each dataset contains two integers: a positive integer n ( $0 < n \le 50$) giving the length of the strings; and a positive integer m ( $0 < m \le 100$) giving the number of strings. These are followed by m lines, each containing a string of length n.
+
+Output 
+For each dataset, output the list of input strings, arranged from ``most sorted'' to ``least sorted''. If two or more strings are equally sorted, list them in the same order they are in the input file.
+
+Print a blank line between consecutive test cases.
+
+Sample Input 
+
+1
+
+10 6
+AACATGAAGG
+TTTTGGCCAA
+TTTGGCCAAA
+GATCAGATTT
+CCCGGGGGGA
+ATCGATGCAT
+
+Sample Output 
+
+CCCGGGGGGA
+AACATGAAGG
+GATCAGATTT
+ATCGATGCAT
+TTTTGGCCAA
+TTTGGCCAAA
+
+
+
+Clasificación de ADN
+
+Una medida de la `` unsortedness'' en una secuencia es el número de pares de entradas
+
+que están fuera de orden con respecto a la otra. Por ejemplo, en la carta
+
+secuencia `` DAABEC'', esta medida es 5, ya que D es mayor que cuatro cartas a
+
+su derecho y E es mayor que una letra a su derecha. Esta medida se llama
+
+el número de inversiones en la secuencia. La secuencia `` AACEDGG'' sólo tiene un
+
+inversión (E y D) - está casi resuelto - mientras que la secuencia `` ZWQM'' tiene 6
+
+inversiones (que es como sin clasificar, como pueden ser - exactamente lo contrario de ordenar).
+
+
+Usted es responsable de la catalogación de una secuencia de cadenas de ADN (secuencias
+
+que contiene sólo las cuatro letras A, C, G y T). Sin embargo, usted quiere catalogar
+
+ellos, no en orden alfabético, sino más bien con el fin de `` sortedness'', de
+
+`` más ordenada'' a ``'' menos ordenada. Todas las cadenas son de la misma longitud.
+
+entrada
+La primera línea de la entrada es un número entero M, entonces una línea en blanco seguido de M
+
+conjuntos de datos. Hay una línea en blanco entre los conjuntos de datos.
+
+La primera línea de cada conjunto de datos contiene dos enteros: un número entero positivo n ($ 0
+
+<N \ le $ 50) que da la longitud de las cuerdas, y un número entero positivo m ($ 0 <m
+
+\ le $ 100) que indica el número de cadenas. Estos son seguidos por m líneas, cada uno
+
+contiene una cadena de longitud n.
+
+salida
+Para cada conjunto de datos, salida de la lista de cadenas de entrada, dispuesto a `` más
+
+ordenados'' a `` menos ordenada''. Si dos o más cadenas están igualmente ordenados, la lista
+
+ellos en el mismo orden en que están en el archivo de entrada.
+
+Imprima una línea en blanco entre los casos de prueba consecutivos.
+
+ejemplo de entrada
+
+1
+
+10 6
+AACATGAAGG
+TTTTGGCCAA
+TTTGGCCAAA
+GATCAGATTT
+CCCGGGGGGA
+ATCGATGCAT
+
+ejemplo de Salida
+
+CCCGGGGGGA
+AACATGAAGG
+GATCAGATTT
+ATCGATGCAT
+TTTTGGCCAA
+TTTGGCCAAA

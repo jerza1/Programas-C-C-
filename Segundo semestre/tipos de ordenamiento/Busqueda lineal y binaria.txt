@@ -1,0 +1,7 @@
+Busqueda Lineal y Binaria
+
+Problema: Encontrar un elemento en la secuencia de entrada.
+
+Estrategia Lineal: Comparar el elemento buscado en forma secuencial con cada uno  de los elementos de la secuencia entrada, hasta encontrarlo o se haya comparado con todos.
+
+Estrategia Binaria: Compara el elemento de la mitad de la secuencia de entrada (ordenada); si el elemento buscado es igual al del centro el algoritmo termina, si es menor buscamos en la mitad izquierda y si es mayor buscamos en la mitad derecha utilizando la misma estrategia.

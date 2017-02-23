@@ -1,0 +1,55 @@
+  Problem C: Vito's family 
+
+Background 
+The world-known gangster Vito Deadstone is moving to New York. He has a very big family there, all of them living in Lamafia Avenue. Since he will visit all his relatives very often, he is trying to find a house close to them.
+
+Problem 
+Vito wants to minimize the total distance to all of them and has blackmailed you to write a program that solves his problem.
+
+Input 
+The input consists of several test cases. The first line contains the number of test cases.
+
+For each test case you will be given the integer number of relatives r ( 0 < r < 500) and the street numbers (also integers) $s_1, s_2, \ldots, s_i, \ldots, s_r$ where they live ( 0 < si < 30000 ). Note that several relatives could live in the same street number.
+
+Output 
+For each test case your program must write the minimal sum of distances from the optimal Vito's house to each one of his relatives. The distance between two street numbers si and sj is dij= |si-sj|.
+
+Sample Input 
+
+2
+2 2 4 
+3 2 4 6
+
+Sample Output 
+
+2
+4
+
+
+
+La familia de Vito: Problema C
+
+fondo
+El gángster mundialmente conocido Vito Deadstone se mueve a Nueva York. Él tiene una familia muy grande allí, todos ellos viven en Lamafia Avenue. Desde que visitará todos sus parientes muy a menudo, que está tratando de encontrar una casa cerca de ellos.
+
+problema
+Vito quiere minimizar la distancia total a todos ellos y ha chantajeado a escribir un programa que resuelve el problema.
+
+entrada
+La entrada consiste en varios casos de prueba. La primera línea contiene el número de casos de prueba.
+
+Para cada caso de prueba se le dará el número entero de parientes r (0 <r <500) y los números de la calle (también enteros) $ s_1, s_2, \ ldots, S_i, \ ldots, s_r $ en el que viven (0 <Si <30.000). Tenga en cuenta que varios familiares podrían vivir en el mismo número de la calle.
+
+salida
+Para cada caso de prueba el programa debe escribir la suma de las distancias mínimas de la casa de Vito óptima a cada uno de sus familiares. La distancia entre los dos números de la calle si y sj es dij = | si-sj |.
+
+ejemplo de entrada
+
+2
+2 2 4
+3 2 4 6
+
+ejemplo de Salida
+
+2
+4

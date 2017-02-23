@@ -1,0 +1,52 @@
+
+ Flip Sort 
+
+Sorting in computer science is an important part. Almost every problem can be solved effeciently if sorted data are found. There are some excellent sorting algorithm which has already acheived the lower bound nlgn. In this problem we will also discuss about a new sorting approach. In this approach only one operation ( Flip ) is available and that is you can exchange two adjacent terms. If you think a while, you will see that it is always possible to sort a set of numbers in this way.
+The Problem
+
+A set of integers will be given. Now using the above approach we want to sort the numbers in ascending order. You have to find out the minimum number of flips required. Such as to sort "1 2 3" we need no flip operation whether to sort "2 3 1" we need at least 2 flip operations.
+
+The Input
+
+The input will start with a positive integer N ( N<=1000 ). In next few lines there will be N integers. Input will be terminated by EOF.
+The Output
+
+For each data set print "Minimum exchange operations : M" where M is the minimum flip operations required to perform sorting. Use a seperate line for each case.
+Sample Input
+
+3 
+1 2 3
+3
+2 3 1
+
+Sample Output
+
+Minimum exchange operations : 0
+Minimum exchange operations : 2
+
+
+Voltear Ordenar
+
+Selección de la informática es una parte importante. Casi todos los problemas se pueden resolver eficientemente si se encuentran datos ordenados. Hay un excelente algoritmo de clasificación que ya ha acheived NLGN el límite inferior. En este problema también vamos a discutir acerca de un nuevo enfoque de la clasificación. En este enfoque sólo una operación (tapa) está disponible y que se puede intercambiar dos términos adyacentes. Si piensas un poco, verás que siempre es posible ordenar un conjunto de números de esta manera.
+El Problema
+
+Se le dará una serie de números enteros. Ahora, utilizando el enfoque anterior queremos ordenar los números en orden ascendente. Tienes que encontrar el número mínimo de lanzamientos necesarios. Por ejemplo, para ordenar "1 2 3" necesitamos ninguna operación flip si desea ordenar "1 2 3" necesitamos al menos 2 operaciones tirón.
+
+La entrada
+
+La entrada comienza con un entero positivo N (N <= 1000). En próximas líneas habrá N enteros. De entrada se dará por terminado por EOF.
+La Salida
+
+Para cada conjunto de datos de impresión "operaciones de cambio mínimos: M", donde M es el mínimo tirón operaciones necesarias para realizar la clasificación. Use una línea separada para cada caso.
+ejemplo de entrada
+
+3
+1 2 3
+3
+1 2 3
+
+ejemplo de Salida
+
+Las operaciones de cambio mínimos: 0
+Las operaciones de cambio mínimos: 2
+

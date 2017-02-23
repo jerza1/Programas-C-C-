@@ -1,0 +1,116 @@
+
+ Train Swapping 
+
+At an old railway station, you may still encounter one of the last remaining ``train swappers''. A train swapper is an employee of the railroad, whose sole job it is to rearrange the carriages of trains.
+
+Once the carriages are arranged in the optimal order, all the train driver has to do, is drop the carriages off, one by one, at the stations for which the load is meant.
+
+The title ``train swapper'' stems from the first person who performed this task, at a station close to a railway bridge. Instead of opening up vertically, the bridge rotated around a pillar in the center of the river. After rotating the bridge 90 degrees, boats could pass left or right.
+
+The first train swapper had discovered that the bridge could be operated with at most two carriages on it. By rotating the bridge 180 degrees, the carriages switched place, allowing him to rearrange the carriages (as a side effect, the carriages then faced the opposite direction, but train carriages can move either way, so who cares).
+
+Now that almost all train swappers have died out, the railway company would like to automate their operation. Part of the program to be developed, is a routine which decides for a given train the least number of swaps of two adjacent carriages necessary to order the train. Your assignment is to create that routine.
+
+Input Specification
+
+The input contains on the first line the number of test cases (N). Each test case consists of two input lines. The first line of a test case contains an integer L, determining the length of the train ( tex2html_wrap_inline30 ). The second line of a test case contains a permutation of the numbers 1 through L, indicating the current order of the carriages. The carriages should be ordered such that carriage 1 comes first, then 2, etc. with carriage L coming last.
+
+Output Specification
+
+For each test case output the sentence: 'Optimal train swapping takes S swaps.' where S is an integer.
+
+Example Input
+
+3
+3
+1 3 2
+4
+4 3 2 1
+2
+2 1
+
+Example Output
+
+Optimal train swapping takes 1 swaps.
+Optimal train swapping takes 6 swaps.
+Optimal train swapping takes 1 swaps.
+
+
+
+Capacitar Intercambio
+
+En una antigua estación de ferrocarril, es posible que todavía encuentre uno de los últimos que queda
+
+`` Swappers tren''. Un intercambiador de tren está a un empleado del ferrocarril, cuya única
+
+trabajo consiste en reorganizar los vagones de los trenes.
+
+Una vez que los carros están dispuestos en el orden óptimo, todo el conductor del tren tiene
+
+hacer, es dejar los carros, uno por uno, en las estaciones para que la carga
+
+se quiere decir.
+
+El título `` tren swapper'' se deriva de la primera persona que lleva a cabo esta tarea,
+
+en una estación cerca de un puente de ferrocarril. En lugar de abrir de forma vertical, el
+
+puente girar alrededor de un pilar en el centro del río. Después de girar la
+
+puente de 90 grados, los barcos podían pasar hacia la izquierda o derecha.
+
+El primer intercambiador de trenes había descubierto que el puente podría ser operado con al
+
+la mayoría de los dos carros sobre el mismo. Mediante la rotación del puente de 180 grados, los carruajes
+
+cambiado el lugar, lo que le permite reorganizar los carros (como efecto secundario, la
+
+carruajes y luego se enfrentaron a la dirección opuesta, pero vagones pueden moverse bien
+
+Así, a quién le importa).
+
+Ahora que casi todos los que intercambian trenes se han extinguido, la compañía de ferrocarriles le gustaría
+
+para automatizar su funcionamiento. Parte del programa a ser desarrollado, es una rutina
+
+que decide por un tren dado el menor número de swaps de dos adyacentes
+
+carros necesarios para ordenar el tren. Su misión es crear ese
+
+de rutina.
+
+Especificaciones de entrada
+
+La entrada contiene en la primera línea el número de casos de prueba (N). Cada prueba
+
+caso consiste en dos líneas de entrada. La primera línea de un caso de prueba contiene un
+
+entero L, la determinación de la longitud del tren (tex2html_wrap_inline30). La
+
+segunda línea de un caso de prueba contiene una permutación de los números 1 a L,
+
+que indica el orden actual de los vagones. Los carros deben ser solicitados
+
+de tal manera que el transporte 1 es lo primero, luego 2, etc con el carro L será la última.
+
+Especificaciones de salida
+
+Para cada caso de prueba de salida de la frase: '. Tren óptimo intercambio toma S swaps'
+
+donde S es un número entero.
+
+Ejemplo de entrada
+
+3
+3
+1 3 2
+4
+4 3 2 1
+2
+2 1
+
+Ejemplo de Salida
+
+Tren óptimo intercambio toma 1 swaps.
+Tren óptimo intercambio tarda 6 swaps.
+Tren óptimo intercambio toma 1 swaps.

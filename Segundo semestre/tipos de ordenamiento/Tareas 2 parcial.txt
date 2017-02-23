@@ -1,0 +1,6 @@
+1. Train Swapping
+2. DNA Sorting
+3. Flip Sort
+4. Stack of Flapjacks
+5. Ultra Quick Sort
+6. Age Sort
