@@ -1,0 +1,31 @@
+Algoritmo para transformar una expresion en notacion infija a notacion posfija
+
+Puntos a considerar:
+
+1. Recorre la expresion infija
+2. Si se trata de un operando se envia a la cadena posfija
+3. Si se trata de un parentisis izquierdo se inserta en la pila
+4. Si se trata de un operador se inserta directamente en la pila 
+     Si se presenta algunos de los 3 casos siguientes:
+        Caso 1: Pila se encuentra vacia
+        Caso 2: El tope de la pila es un '('
+        Caso 3: El operador del tope de la pila tiene menor prioridad comparado con la del operador
+                  a insertar
+    Si no se cumple el caso 3 se extrae el operador del tope de la pila y se envia a la cadena posfija
+    y se revisan nuevamente los 3 casos
+
+operador	Prioridad
++ -	1
+* /	2
+
+
+Convertir las siguientes expresiones en notacion infija a notacion posfija
+1. 4+3*2
+2. (4+3)*2
+3. (5+9)*3+7-2/(4*5-9)
+4. 7-(8+(4*5)-(9+7)*6)
+
+1. 432*+
+2. 43+2*
+3. 59+3*7+245*9-/-
+4. 45*97+-6*8+7-
